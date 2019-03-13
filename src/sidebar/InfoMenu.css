@@ -1,0 +1,15 @@
+#infoMenu {
+  background-color: #41B8BA;
+}
+
+#infoMenu img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 0.33vw solid black;
+}
+
+#infoMenu i.fa-ticket-alt {
+  color: #FCD941;
+}

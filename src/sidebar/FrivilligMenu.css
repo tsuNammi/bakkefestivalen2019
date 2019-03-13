@@ -1,0 +1,48 @@
+/* fjern når frivillig registrering åpner */
+#frivilligKnapp2 {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  #frivilligKnapp {
+    display: none !important;
+  }
+}
+
+#frivilligMenu {
+  background-color: #fff;
+}
+
+#frivilligMenu h2 {
+  display: inline-block;
+}
+
+#frivilligKnapp {
+display: none;
+}
+
+@media (min-width: 768px) {
+  #frivilligKnapp {
+    display: block;
+    border: 0.33vw solid black;
+    font-size: 1.2vw;
+    float: right;
+    text-align: center;
+    -webkit-box-shadow: 0.33vw 0.33vw 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0.33vw 0.33vw 0px 0px rgba(0,0,0,1);
+    box-shadow: 0.33vw 0.33vw 0px 0px rgba(0,0,0,1);
+    width: 15vw;
+  }
+}
+
+#frivilligKnapp2 {
+  border: 0.33vw solid black;
+  font-size: 5vw;
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+  display: block;
+  -webkit-box-shadow: 0.33vw 0.33vw 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0.33vw 0.33vw 0px 0px rgba(0,0,0,1);
+  box-shadow: 0.33vw 0.33vw 0px 0px rgba(0,0,0,1);
+}

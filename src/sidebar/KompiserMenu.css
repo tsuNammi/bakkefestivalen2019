@@ -1,0 +1,45 @@
+#kompiserMenu {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#kompiserMenu a {
+  height: 100%;
+  align-self: center;
+  justify-self: center;
+  line-height: 150px;
+}
+
+#kompiserMenu img {
+  max-width: 100%;
+  max-height: 150px;
+  margin: auto;
+  vertical-align: middle; 
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  #kompiserMenu {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+  #kompiserMenu a {
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    line-height: 150px;
+  }
+
+  #kompiserMenu img {
+    max-width: 100%;
+    max-height: 150px;
+    margin: auto;
+    vertical-align: middle; 
+    display: inline-block;
+  }
+}

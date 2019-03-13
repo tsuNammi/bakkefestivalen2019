@@ -1,0 +1,195 @@
+/* SIDEBAR */
+.sidebar {
+  background-color: #FCD941;
+  margin: 0;
+  position: relative;
+  z-index: 10;
+  border: 2px solid black;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: auto;
+    grid-template-rows: 1fr 2fr 1fr;
+    border: 0.33vw solid black;
+  }
+}
+.topContainer {
+  grid-row: 1/2;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .topContainer {
+    display: block;
+  }
+}
+.topContainer ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  height: 100%;
+}
+.topContainer li {
+  list-style-type: none;
+  margin: 0;
+  display: block;
+  border-bottom: 0.33vw solid black;
+  font-size: 1.25vw;
+  font-family: Adieu-Black;
+}
+
+#gul1 {
+  grid-row: 1/2;
+}
+#gul2 {
+  grid-row: 2/3;
+}
+#gul3 {
+  grid-row: 3/4;
+}
+#gul4 {
+  grid-row: 4/5;
+}
+#gul5 {
+  grid-row: 5/6;
+}
+#gul6 {
+  grid-row: 6/7;
+}
+#gul7 {
+  grid-row: 7/8;
+}
+#gul8 {
+  grid-row: 8/9;
+}
+
+.menuContainer {
+  grid-row: 1/2;
+}
+
+@media (min-width: 768px) {
+  .menuContainer {
+    grid-row: 2/3;
+  }
+}
+.menuContainer li {
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  font-size: 2vw;
+}
+.menuContainer ul {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+.menuContainer li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  color: black;
+}
+.sidebarButton {
+  width: 100%;
+  border: none;
+  font-family: Adieu-Black;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+  padding-left: 25px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .sidebarButton {
+    width: 100%;
+    border: none;
+    font-family: Adieu-Black;
+    font-size: 2.2vw;
+    text-align: left;
+    padding: 5px;
+    padding-left: 20px;
+    border-top: 0.33vw solid black;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+  }
+}
+
+#artisterButton {
+  background-color: #3b70f4;
+}
+#programButton {
+  background-color: #ea5653;
+}
+#frivilligButton {
+  background-color: #fff;
+}
+#infoButton {
+  background-color: #41B8BA;
+}
+
+#matButton {
+  background-color: #e188aa;
+}
+
+#kompiserButton {
+  background-color: #ee723e;
+  border-bottom: 4px solid black;
+}
+
+@media (min-width: 768px) {
+  #kompiserButton {
+    border-bottom: 0.33vw solid black;
+    -webkit-box-shadow: 0.33vw 0.66vw 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0.33vw 0.66vw 0px 0px rgba(0,0,0,1);
+    box-shadow: 0.33vw 0.66vw 0px 0px rgba(0,0,0,1);
+  }
+}
+
+.social {
+  padding: 10px;
+  margin: auto;
+  margin-top: 1.25vw;
+  justify-self: center;
+  text-align: center;
+}
+
+.social a {
+  color: #111;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bottomContainer {
+  grid-row: 3/4;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bottomContainer {
+    display: block;
+  }
+}
+.bottomContainer ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  height: 100%;
+}
+.bottomContainer li {
+  list-style-type: none;
+  margin: 0;
+  display: block;
+  border-top: 0.33vw solid black;
+  font-size: 1.25vw;
+  font-family: Adieu-Black;
+}

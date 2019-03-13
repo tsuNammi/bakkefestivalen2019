@@ -1,0 +1,48 @@
+#programMenu {
+  background-color: #ea5653;
+  /* display: grid; */
+  grid-template-rows: 1fr 1fr;
+}
+
+#konsertProgram {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr repeat(10, 1fr);
+  font-size: 12px;
+}
+
+/* #konsertProgram > span {
+  padding: 4px;
+} */
+
+#aktivitetsProgram {
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 2fr repeat(10, 1fr);
+  font-size: 12px;
+}
+
+/* #aktivitetsProgram > span {
+  padding: 4px;
+} */
+
+@media (min-width: 768px) {
+  #programMenu {
+    background-color: #e94c46;
+    /* display: grid; */ /* UN COMMENT VED LAUNCH */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  #konsertProgram {
+    grid-column: 1/2;
+    grid-row: auto;
+  }
+
+  #aktivitetsProgram {
+    grid-column: 2/3;
+    grid-row: auto;
+  }
+}

@@ -1,0 +1,124 @@
+.slideMenu {
+  max-width: 100vw;
+  max-height: 250px;
+  min-height: 250px; /* fjern når info kommer på alle menyer */
+  position: fixed;
+  top: 100px;
+  left: 0;
+  transition: transform 0.3s
+              ease-in-out;
+  overflow-y: scroll;
+  z-index: 5;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.mobileSlideMenu {
+  max-width: 100vw;
+  max-height: 250px;
+  min-height: 250px; /* fjern når info kommer på alle menyer */
+  position: fixed;
+  top: 0px;
+  left: 0;
+  transition: transform 0.3s
+              ease-in-out;
+  overflow-y: scroll;
+  z-index: 5;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #3b70f4;
+}
+
+.mobileSlideMenu.hide {
+  transform: translate3d(0, -100vh, 0);
+}
+
+.mobileSlideMenu.show {
+  transform: translate3d(0, 0, 0);
+}
+
+@media (min-height: 600px) {
+  .slideMenu {
+    max-height: 350px;
+    min-height: 350px; /* fjern når info kommer på alle menyer */
+    top: 100px;
+  }
+  .mobileSlideMenu {
+    max-height: 350px;
+    min-height: 350px; /* fjern når info kommer på alle menyer */
+  }
+}
+
+.slideMenu.hide {
+  transform: translate3d(0, 100vh, 0);
+}
+
+.slideMenu.show {
+  transform: translate3d(0, 0, 0);
+}
+
+@media (min-width: 768px) {
+  .slideMenu {
+    max-width: 75vw;
+    max-height: 70vh;
+    position: fixed;
+    top: 25vh;
+    left: 0;
+    transition: transform 0.3s
+                ease-in-out;
+    overflow-y: scroll;
+    z-index: 5;
+    border-right: 0.33vw solid black;
+    border-top: 0.33vw solid black;
+    border-bottom: 0.33vw solid black;
+    border-left: 0;
+    padding: 20px;
+    -webkit-box-shadow: 0.66vw 0.33vw 0px 0.33vw rgba(0,0,0,1);
+    -moz-box-shadow: 0.66vw 0.33vw 0px 0.33vw rgba(0,0,0,1);
+    box-shadow: 0.66vw 0.33vw 0px 0.33vw rgba(0,0,0,1);
+  }
+  .slideMenu.hide {
+    transform: translate3d(-100vw, 0, 0);
+  }
+  
+  .slideMenu.show {
+    transform: translate3d(20vw, 0, 0);
+  }
+}
+
+.slideMenu strong {
+  font-family: Adieu-Black;
+}
+
+
+
+.slideMenu a {
+  color: black;
+  text-decoration: none;
+  font-family: Adieu-Black;
+}
+
+.slideMenu h2 a:hover {
+  text-decoration: underline;
+}
+
+.mobileSlideMenu button {
+  font-size: 12px;
+  border: 2px solid white;
+}
+
+/* fjern alt under når info er lagt inn */
+
+#mobileTbaMenu {
+  border-right: 4px solid black;
+}
+
+#mobileTba2Menu {
+  border-right: 4px solid black;
+}
+#mobileKickoffMenu {
+  border-right: 4px solid black;
+}
