@@ -45,16 +45,19 @@ button:focus {
 
 @font-face {
   font-family: Adieu;
+  font-display: auto;
   src: url(./font/Adieu-Regular.otf);
 }
 
 @font-face {
   font-family: Adieu-Black;
+  font-display: auto;
   src: url(./font/Adieu-Black.otf);
 }
 
 @font-face {
   font-family: Adieu-Black-Backslanted;
+  font-display: auto;
   src: url(./font/Adieu-BlackBackslant.otf);
 }
 
