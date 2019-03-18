@@ -60,8 +60,8 @@ class InfoMenu extends Component {
             Området stenges kl 23:00. Vi setter i gang nedrigg av festivalområdet umiddelbart, hvor det i hovedsak vil være scenen som skal vekk. Dette skal vi prøve å få gjort så fort som mulig, med minst mulig støy. Nedrigg og opprydning avsluttes søndag formiddag.
             <br></br><br></br>
             Bakkegata (mellom Nedre Møllenberg og Kirkegata) blir også stengt i denne perioden. Beboere som mister / har behov for parkeringsplass som følge av dette, bes om å ta kontakt med oss. Vi sørger for gratis parkering på Bakklandet P-hus hele helgen. Naboer av festivalområdet får tilbud om rabatterte festivalpass til kveldsprogrammet, mens direkte naboer som får inngangspartiet sitt berørt får gratis adgang. De det gjelder skal vi prøve så godt å få kontakt med, men føler du at du mangler, så oppfordrer vi deg til å ta kontakt med oss! Nabovarsel går ut til berørt område og direkte naboer i begynnelsen av april, men kan også <a href="http://www.bakkefestivalen.no/nabovarsel" id="nabovarsel" target="_blank" rel="noopener noreferrer">lastes ned her.</a>
-            <br></br><br></br>
-            Om det skulle være noen spørsmål, kan du kontakte oss på <a href="mailto:post@bakkefestivalen.no">post@bakkefestivalen.no</a>, <a href="https://www.facebook.com/bakkefestivalen/" target="_blank" rel="noopener noreferrer">Facebook</a> eller vår nabotelefon 938 21 131 (bemannet fra mandag 1. mai til søndag 5. mai).
+            {/* <br></br><br></br>
+            Om det skulle være noen spørsmål, kan du kontakte oss på <a href="mailto:post@bakkefestivalen.no">post@bakkefestivalen.no</a>, <a href="https://www.facebook.com/bakkefestivalen/" target="_blank" rel="noopener noreferrer">Facebook</a> eller vår nabotelefon 938 21 131 (bemannet fra mandag 1. mai til søndag 5. mai). */}
           </p>
           <p>
             <strong>BELIGGENHET</strong>
