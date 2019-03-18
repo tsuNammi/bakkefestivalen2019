@@ -12,6 +12,7 @@ import logoSkipnes from '../images/kompiser/logo-skipnes.png';
 import logoTrheimKommune from '../images/kompiser/logo-trheim_kommune.png';
 import logoTrheimLyd from '../images/kompiser/logo-trheim_lyd.png';
 import logoTtun from '../images/kompiser/logo-ttun.png';
+import logoBmns from '../images/kompiser/logo-bmns.png';
 
 class KompiserMenu extends Component {
   render() {
@@ -31,8 +32,9 @@ class KompiserMenu extends Component {
       <div id="kompiserMenu" className={menuClass}>
           <a href="https://www.witro.no/" target="_blank" rel="noopener noreferrer"><img src={logoWitro} alt="Witro Bil logo"></img></a>
           <a href="https://retura.no/" target="_blank" rel="noopener noreferrer"><img src={logoRetura} alt="Retura TRV logo"></img></a>
-          <a href="https://www.frifond.no/" target="_blank" rel="noopener noreferrer"><img src={logoFriFond} alt="Fri Fond logo"></img></a>
+          <a href="http://www.bmns.no/" target="_blank" rel="noopener noreferrer"><img src={logoBmns} alt="BMNS logo"></img></a>
           <a href="https://www.trondheim.kommune.no/" target="_blank" rel="noopener noreferrer"><img src={logoTrheimKommune} alt="Trondheim Kommune logo"></img></a>
+          <a href="https://www.frifond.no/" target="_blank" rel="noopener noreferrer"><img src={logoFriFond} alt="Fri Fond logo"></img></a>
           <a href="https://www.facebook.com/lokalbar.trhm/" target="_blank" rel="noopener noreferrer"><img src={logoLokal} alt="Lokal logo"></img></a>
           <a href="https://www.konsertarrangor.no/" target="_blank" rel="noopener noreferrer"><img src={logoNKA} alt="NKA logo"></img></a>
           <a href="http://pcm-as.no/" target="_blank" rel="noopener noreferrer"><img src={logoPCM} alt="PCM logo"></img></a>
