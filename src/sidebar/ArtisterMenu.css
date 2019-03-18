@@ -98,6 +98,9 @@
   font-size: 5vw;
   font-family: Adieu-Black-Backslanted;
   width: 100%;
+  background-color: #3b70f4;
+  margin: 0;
+  border: 0;
 }
 
 #mobileArtistContainer li:first-child button {
@@ -118,7 +121,7 @@
   border-bottom: 0;
 } */
 
-#mobileArtistList .specialEvents {
+#mobileArtistList .specialEvents button {
   background-color: #e188aa;
 }
 

@@ -44,11 +44,11 @@
   .slideMenu {
     max-height: 350px;
     min-height: 350px; /* fjern når info kommer på alle menyer */
-    top: 100px;
+    top: 123px;
   }
   .mobileSlideMenu {
-    max-height: 350px;
-    min-height: 350px; /* fjern når info kommer på alle menyer */
+    max-height: 327px;
+    min-height: 327px; /* fjern når info kommer på alle menyer */
   }
 }
 
