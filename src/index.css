@@ -57,3 +57,7 @@ button:focus {
   font-family: Adieu-Black-Backslanted;
   src: url(./font/Adieu-BlackBackslant.otf);
 }
+
+button {
+  -webkit-appearance: none !important;
+}

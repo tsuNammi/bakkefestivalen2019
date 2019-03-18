@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Menu.css";
 import "./InfoMenu.css";
 import kart from '../images/kart.png' 
-import kart2 from '../images/kart2.png' 
+// import kart2 from '../images/kart2.png' 
 
 class InfoMenu extends Component {
   render() {
@@ -67,8 +67,8 @@ class InfoMenu extends Component {
             <strong>BELIGGENHET</strong>
             <br></br>
             <img src={kart} alt="kart"></img>
-            <br></br>
-            <img src={kart2} alt="kart2"></img>
+            {/* <br></br>
+            <img src={kart2} alt="kart2"></img> */}
           </p>
           <p>
             <strong>INFO FOR FUNKSJONSHEMMEDE</strong>
@@ -113,7 +113,7 @@ class InfoMenu extends Component {
           <p>
             <strong>FRIVILLIG/AKKREDITERING</strong>
             <br></br>
-            Du kan melde deg som frivillig <a href="https://form.arkon.no/?id=3871&key=Kbpll3" target="_blank" rel="noopener noreferrer">her!</a> Akkrediterte kan avhente bånd i akkreditering/billettbua ved inngangen.
+            Du kan melde deg som frivillig <a href="http://ark.pm/j2ZvX" target="_blank" rel="noopener noreferrer">her!</a> Akkrediterte kan avhente bånd i akkreditering/billettbua ved inngangen.
           </p>
           <p>
             <strong>PRESSEAKKREDITERING</strong>

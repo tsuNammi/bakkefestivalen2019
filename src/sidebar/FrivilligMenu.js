@@ -19,9 +19,7 @@ class FrivilligMenu extends Component {
     return (
       <div id="frivilligMenu" className={menuClass}>
         <h2>Jobb som frivillig på Bakkefestivalen 2019!</h2>
-        <a href="#" target="_blank" rel="noopener noreferrer" id="frivilligKnapp">Søk her!</a>
-        {/* fjern når frivillig registrering åpner */}
-        <p>Frivilligregistreringen åpner 18. mars!</p>
+        <a href="http://ark.pm/j2ZvX" target="_blank" rel="noopener noreferrer" id="frivilligKnapp">Søk her!</a>
         <p>Når man skal arrangere festival så er det utrolig mye som må gjøres for at dagen skal bli perfekt. Vil du være med på å gjøre denne dagen best mulig?</p>
         <p>Ved å være frivillig blir du en del av den fantastiske gjengen som arrangerer festival. Du får gratis adgang til festivalen, og være med på to heidundrandes frivilligfester! I tillegg så ser ikke frivillig arbeid så verst ut på CVen heller. Men hva kan jeg jobbe med?</p>
           <p>
@@ -74,7 +72,7 @@ class FrivilligMenu extends Component {
             De som jobber under festivalen jobber én vakt, mens de som jobber i forkant eller etter, skal sannsynligvis jobbe 2 vakter. Meld deg på for å være med å arrangere Trondheims koseligste festival!
           </p>
           <br></br>
-          <a href="#" target="_blank" rel="noopener noreferrer" id="frivilligKnapp2">Søk her!</a>
+          <a href="http://ark.pm/j2ZvX" target="_blank" rel="noopener noreferrer" id="frivilligKnapp2">Søk her!</a>
 
       </div>
     );

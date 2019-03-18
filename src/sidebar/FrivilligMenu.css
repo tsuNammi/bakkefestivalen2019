@@ -1,14 +1,3 @@
-/* fjern når frivillig registrering åpner */
-#frivilligKnapp2 {
-  display: none !important;
-}
-
-@media (min-width: 768px) {
-  #frivilligKnapp {
-    display: none !important;
-  }
-}
-
 #frivilligMenu {
   background-color: #fff;
 }
