@@ -1,3 +1,7 @@
+# Bakkefestivalen 2019 webpage made with React and Create React App!
+
+## All image rights are reserved by their respective owners.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
