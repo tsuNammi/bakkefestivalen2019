@@ -2,7 +2,7 @@
 
 ## All image rights are reserved by their respective owners.
 
-The page can be visited at https://bakkefestivalen.no
+##### The page can be visited at https://bakkefestivalen.no
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
